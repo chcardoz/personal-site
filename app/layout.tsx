@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Header from "@/components/Header";
+import HeaderMobile from "@/components/HeaderMobile";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,9 +19,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <aside className="fixed z-40 top-0 left-0 h-screen outline-dashed">
-          <h1>Navbar</h1>
-        </aside>
+        <Header />
+        <HeaderMobile />
         <div className="rounded-lg outline-dashed mt-10 mx-2 md:mx-40 p-5">
           {children}
         </div>
