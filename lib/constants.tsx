@@ -2,8 +2,8 @@ import { SideNavItem } from "@/lib/types";
 
 export const SIDENAV_ITEMS: SideNavItem[] = [
   {
-    title: "Home",
-    path: "/",
+    title: "About",
+    path: "/about",
   },
   {
     title: "Blog",
