@@ -12,9 +12,8 @@ export default function SideNav() {
           href="/"
           className="flex flex-row space-x-3 items-center justify-center md:justify-start md:px-6 border-b border-zinc-700 h-12 w-full"
         >
-          <span className="h-7 w-7 bg-zinc-500 rounded-lg" />
-          <span className="font-bold text-xl hidden md:flex">
-            Chris Cardoza
+          <span className="font-display text-xl hidden md:flex">
+            CHRIS CARDOZA
           </span>
         </Link>
 

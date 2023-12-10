@@ -25,8 +25,7 @@ export default function Header() {
             className="flex flex-row space-x-3 items-center justify-center md:hidden"
             href="/"
           >
-            <span className="h-7 w-7 bg-zinc-500 rounded-lg" />
-            <span className="font-bold text-xl">Chris Cardoza</span>
+            <span className="font-display text-2xl">CHRIS CARDOZA</span>
           </Link>
         </div>
         <div className="hidden md:block"></div>
